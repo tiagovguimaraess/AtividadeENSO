@@ -20,3 +20,7 @@ Treinar a criação e alteração de commits
 $ git clone urlprojeto
 $ git add nomeArquivo (ou "add ." para adicionar todos os arquivos untracked do diretório)
 ```
+## Como funciona a API REST
++ Para acessar, entre no endereço api/operação/valor1/valor2
+  + Ao fazer isso, será exibido o resultado da operação na tela
+
