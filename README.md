@@ -13,10 +13,15 @@ Ao longo da disciplina faremos um software alvo.
 Orientador: [Daniel Fireman](https://github.com/danielfireman)
 
 ## Objetivos desse arquivo
-Treinar a criação e alteração de commits
++ Treinar a criação e alteração de commits
++ Treinar criação de branch 
++ Treinar o trabalho em equipe
++ Treinar criação de pull request
 
 ## Como fazer commits
 ```
 $ git clone urlprojeto
 $ git add nomeArquivo (ou "add ." para adicionar todos os arquivos untracked do diretório)
 ```
+
+
