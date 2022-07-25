@@ -20,7 +20,7 @@ Orientador: [Daniel Fireman](https://github.com/danielfireman)
 + Treinar criação de pull request
 + Treinar revisão de pull requests
 
-Treinar a criação e alteração de commits, criação de branchs e revisão de códigos.
+Treinar a criação e alteração de commits, criação de branches e revisão de códigos.
 
 
 
@@ -33,8 +33,15 @@ $ git commit -m "nome do commit"
 $ git push -u origin nomeDoBranch
 ```
 
+## Como funciona a API REST
++ Para acessar, entre no endereço api/operação/valor1/valor2
+  + Ao fazer isso, será exibido o resultado da operação na tela
+  + Exemplo: api/divisao/10/2 (resultado vai ser 5)
+
+
 
 
 
   -Os passos citados acima são os comandos de terminal para realizar um commit, porém um commit pode ser feito de forma mais interativa pelo [gitpod](https://www.gitpod.io/)
+
 
