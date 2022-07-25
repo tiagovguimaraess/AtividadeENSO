@@ -17,6 +17,7 @@ Orientador: [Daniel Fireman](https://github.com/danielfireman)
 + Treinar criação de branch 
 + Treinar o trabalho em equipe
 + Treinar criação de pull request
++ Treinar revisão de pull requests
 
 ## Como fazer commits
 ```
