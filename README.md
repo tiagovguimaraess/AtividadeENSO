@@ -23,4 +23,5 @@ $ git add nomeArquivo (ou "add ." para adicionar todos os arquivos untracked do 
 ## Como funciona a API REST
 + Para acessar, entre no endereço api/operação/valor1/valor2
   + Ao fazer isso, será exibido o resultado da operação na tela
+  + Exemplo: api/divisao/10/2 (resultado vai ser 5)
 
