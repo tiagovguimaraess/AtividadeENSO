@@ -23,4 +23,4 @@ $ git add nomeArquivo (ou "add ." para adicionar todos os arquivos untracked do 
 $ git commit -m "nome do commit"
 $ git push -u origin nomeDoBranch
 ```
-Os passos citados acima são os comandos de terminal para realizar um commit, porém um commit pode ser feito de forma mais interativa pelo gitpod.io.
+  -Os passos citados acima são os comandos de terminal para realizar um commit, porém um commit pode ser feito de forma mais interativa pelo [gitpod](https://www.gitpod.io/)
