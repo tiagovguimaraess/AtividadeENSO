@@ -13,7 +13,8 @@ Ao longo da disciplina faremos um software alvo.
 Orientador: [Daniel Fireman](https://github.com/danielfireman)
 
 ## Objetivos desse arquivo
-Treinar a criação e alteração de commits
+Treinar a criação e alteração de commits, criação de branchs e revisão de códigos.
+
 
 ## Como fazer commits
 ```
