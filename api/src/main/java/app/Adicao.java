@@ -9,13 +9,13 @@ public class Adicao {
 
     @GET
 
-    public int  calcular(@PathParam("a1") String a1Str, @PathParam("a2") String a2Str){
+    public double  somar(@PathParam("a1") String a1Str, @PathParam("a2") String a2Str){
 
         try{
-            int a1 = Integer.parseInt(a1Str);
-            int a2 = Integer.parseInt(a2Str);
+            double a1 = Double.parseDouble(a1Str);
+            double a2 = Double.parseDouble(a2Str);
     
-            int calculo = a1 + a2;
+            double calculo = a1 + a2;
     
             return calculo;
         }catch(NumberFormatException nfe){
