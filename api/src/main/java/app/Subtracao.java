@@ -8,7 +8,7 @@ import io.jooby.exception.BadRequestException;
 public class Subtracao {
 
     @GET
-    public double calcular(@PathParam("n1") String n1Str, @PathParam("n2") String n2Str){
+    public double subtrair(@PathParam("n1") String n1Str, @PathParam("n2") String n2Str){
 
         try{
 
