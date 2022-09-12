@@ -7,6 +7,6 @@ public class Index {
 
   @GET
   public String sayHi() {
-    return "BEN-VINDO A NOSSA CALCULADORA API!";
+    return "BEM-VINDO A NOSSA CALCULADORA API!";
   }
 }

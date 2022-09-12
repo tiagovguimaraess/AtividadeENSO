@@ -11,6 +11,9 @@ public class Divisao {
         try {
             double n1 = Double.parseDouble(d1);
             double n2 = Double.parseDouble(d2);
+            if (n2 == 0){
+                throw new BadRequestException("O segundo valor não pode ser 0");
+            }
             return n1/n2;
         } catch (NumberFormatException nfe) {
             throw new BadRequestException("Operador inválido.");
