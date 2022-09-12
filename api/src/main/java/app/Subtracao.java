@@ -8,14 +8,14 @@ import io.jooby.exception.BadRequestException;
 public class Subtracao {
 
     @GET
-    public int calculadora(@PathParam("n1") String n1Str, @PathParam("n2") String n2Str){
+    public double subtrair(@PathParam("n1") String n1Str, @PathParam("n2") String n2Str){
 
         try{
 
-            int n1 = Integer.parseInt(n1Str);
-            int n2 = Integer.parseInt(n2Str);
+            double n1 = Double.parseDouble(n1Str);
+            double n2 = Double.parseDouble(n2Str);
 
-            int resultado = n1 - n2;
+            double resultado = n1 - n2;
         
             return resultado;
 
