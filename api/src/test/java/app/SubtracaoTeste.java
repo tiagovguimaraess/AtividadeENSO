@@ -2,11 +2,17 @@ package app;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class SubtracaoTeste {
 
-    Subtracao subtracao = new Subtracao();
+    Subtracao subtracao;
+
+    @BeforeEach
+    public void antesDeCadaTeste(){
+        subtracao = new Subtracao();
+    }
     
     @Test
     public void verificaCasoPositivo() {
