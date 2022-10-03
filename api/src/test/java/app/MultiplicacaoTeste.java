@@ -24,4 +24,9 @@ public class MultiplicacaoTeste {
         double resultado = multiplicacao.multiplicar("16", "4");
         assertEquals(64.0, resultado);
     }
+    @Test
+    public void verificaCasoBase3() {
+        double resultado = multiplicacao.multiplicar("12", "4");
+        assertEquals(48.0, resultado);
+    }
 }
