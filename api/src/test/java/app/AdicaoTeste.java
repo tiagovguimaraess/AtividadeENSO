@@ -17,5 +17,10 @@ public class AdicaoTeste {
         double resultado = adicao.somar("90", "2");
         assertEquals(92.0, resultado);
     }
+    @Test
+    public void verificarMaisUmCaso() {
+        double resultado = adicao.somar("76", "9");
+        assertEquals(85.0, resultado);
+    }
 
 }
